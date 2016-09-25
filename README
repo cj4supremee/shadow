@@ -1,0 +1,14 @@
+Welcome to the Shadow file password cracker.
+
+Program Summary:
+
+This program is written in the python programming language. (1)The user is prompted to enter the file
+path of the shadow file. (2) The user must enter the username of the account that needs to be cracked.
+(3) The users hash data string is then extracted and split accordingly into a "salt" and "key" A password
+dictionary located in the "dictionary.txt" file is then read line by line and used with the
+crypt.crypt function. This output is then compared with the SHA-512 indicator concatenated with the salt
+and saved key. Once the password is found in the dictionary it will be displayed on the screen and the program
+will terminate.
+
+
+Disclaimer: Source code should be interpreted with Python 2.7

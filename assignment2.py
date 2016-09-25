@@ -1,4 +1,5 @@
 import crypt
+import sys
 
 
 def get_info():
@@ -27,6 +28,8 @@ if __name__ == '__main__':
     # returned when the user is not inside the shadow file
     if user_dataline == None:
         print("The user was not found")
+        print("Program Terminated")
+        sys.exit()
 
     user_dataline.split(":")
     split_1 = user_dataline.split(":")[1]
