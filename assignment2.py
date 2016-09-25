@@ -48,7 +48,7 @@ if __name__ == '__main__':
     c = False
     for psswd in dictionary:
         if indicator + salt + '$' + key == (crypt.crypt(psswd.strip(), indicator + salt + "$")):
-            print("Password was found" + psswd)
+            print("Password was found : " + psswd)
             c = True
 
     if not c:
