@@ -18,8 +18,6 @@ babygirl1
 123456a
 qwerty1
 jordan1
-apple
-password
 iloveyou
 fuck you
 bitch
@@ -5838,6 +5836,8 @@ sweet77
 sweet75
 sweet67
 sweet6
+password
+apple
 sweet5
 sweet4209
 sweet3
