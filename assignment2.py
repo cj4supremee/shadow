@@ -5,7 +5,7 @@ import sys
 def get_info():
     while True:
         print ("****____Welcome to the Password Cracker____****")
-        print("/n")
+        print("\n")
         path = raw_input("Please Enter the file path of the shadow file. Primarily( /etc/shadow ) ")
         user = raw_input("Please Enter the user-name of user whose password you would like to crack. ")
 
